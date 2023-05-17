@@ -52,7 +52,7 @@ namespace LlamaCppCli
         {
 #if DEBUG
             //args = new[] { "0", @"C:\LLM_MODELS\lmsys\ggml-vicuna-13b-v1.1-q4_0.bin", @"..\..\context.txt" };
-            args = new[] { "1", @"C:\LLM_MODELS\lmsys\ggml-vicuna-13b-v1.1-q5_1.bin", @"..\..\template_vicuna-v1.1.txt" };
+            args = new[] { "1", @"C:\Users\t_mil\Software\llama\stable-vicuna-13B.ggml.q5_1.bin", @"C:\Users\t_mil\source\repos\Personal\Libraries\llama.cpp-dotnet\template_stable-vicuna.txt" };
 #endif
             var samples = new (string Name, Func<string[], Task> Func)[]
             {
