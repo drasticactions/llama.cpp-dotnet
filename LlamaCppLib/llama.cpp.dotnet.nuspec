@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<package>
+  <metadata>
+    <id>drastic.llama.cpp.DotNet</id>
+    <title>drastic.llama.cpp.DotNet</title>
+    <version>1.0.2</version>
+    <authors>Drastic Actions</authors>
+    <owners>Drastic Actions</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <summary>Cross-platform dotnet runtimes for LLAMA.</summary>
+    <description>llama.cpp.DotNet is an experimental implementation of llama.cpp-DotNet, running on multiple dotnet platforms.</description>
+    <tags>llama;ios;android;linux;windows;macos;cross-platform</tags>
+    <projectUrl>https://github.com/drasticactions/llama.cpp-dotnet</projectUrl>
+    <license type="expression">MIT</license>
+  </metadata>
+  <files>
+    <file src="bin/Release/net7.0/LlamaCppLib.dll" target="lib/net7.0/LlamaCppLib.dll" />
+    <file src="bin/Release/net7.0/LlamaCppLib.pdb" target="lib/net7.0/LlamaCppLib.pdb" />
+  </files>
+</package>
