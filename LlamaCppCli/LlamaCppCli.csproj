@@ -1,15 +1,11 @@
 <Project Sdk="Microsoft.NET.Sdk">
-
+	<Import Project="../llama.cpp.runtimes/core/Llama.cpp.Runtime/Llama.cpp.Runtime.targets"/>
 	<PropertyGroup>
 		<OutputType>Exe</OutputType>
 		<TargetFramework>net7.0</TargetFramework>
 		<ImplicitUsings>enable</ImplicitUsings>
 		<Nullable>enable</Nullable>
-		<Platforms>x64</Platforms>
-		<BaseOutputPath>..</BaseOutputPath>
 		<LangVersion>latest</LangVersion>
-		<AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
-		<AppendRuntimeIdentifierToOutputPath>false</AppendRuntimeIdentifierToOutputPath>
 	</PropertyGroup>
 
 	<ItemGroup>
