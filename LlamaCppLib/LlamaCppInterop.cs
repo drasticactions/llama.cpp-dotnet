@@ -39,7 +39,6 @@ namespace LlamaCppLib
         public struct llama_context_params
         {
             public int n_ctx;
-            public int n_parts;
             public int n_gpu_layers;
             public int seed;
 
@@ -76,6 +75,12 @@ namespace LlamaCppLib
 
          [DllImport(libraryName)]
         public static extern bool llama_mlock_supported();
+
+        [DllImport("llama")]
+        public static extern void llama_init_backend();
+
+        [DllImport("llama")]
+        public static extern long llama_time_us();
 
         /// <summary>
         /// Various functions for loading a ggml llama model.
