@@ -11,9 +11,9 @@ namespace LlamaCppLib
     public static unsafe partial class Native
     {
 #if WINDOWS
-        private const string LibName = $"{nameof(LlamaCppLib)}/llama";
+        private const string LibName = $"libllama";
 #elif LINUX || MACOS
-        private const string LibName = $"{nameof(LlamaCppLib)}/libllama";
+        private const string LibName = $"libllama";
 #endif
 
         public enum llama_vocab_type_t { LLAMA_VOCAB_TYPE_SPM = 0, LLAMA_VOCAB_TYPE_BPE = 1 }

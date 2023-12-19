@@ -9,6 +9,7 @@
 		<AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
 		<AppendRuntimeIdentifierToOutputPath>false</AppendRuntimeIdentifierToOutputPath>
 		<AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+		<NativeLibraries>OFF</NativeLibraries>
 		<DefineConstants Condition="$([MSBuild]::IsOSPlatform('Windows'))">WINDOWS</DefineConstants>
 		<DefineConstants Condition="$([MSBuild]::IsOSPlatform('Linux'))">LINUX</DefineConstants>
 		<DefineConstants Condition="$([MSBuild]::IsOSPlatform('OSX'))">MACOS</DefineConstants>
